@@ -9,12 +9,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.kev.rickmorty.R
-import com.kev.rickmorty.data.model.CharacterModel
+import com.kev.rickmorty.data.model.CharacterData
 
 class CharacterAdapter(val context: Context) : RecyclerView.Adapter<CharacterAdapter.ViewHolder>() {
-    var items = ArrayList<CharacterModel>()
+    var items = ArrayList<CharacterData>()
 
-    fun setDataList(data: ArrayList<CharacterModel>) {
+    fun setDataList(data: ArrayList<CharacterData>) {
         this.items = data
     }
 
