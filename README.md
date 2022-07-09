@@ -9,5 +9,5 @@
 - [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 
 ## Screenshots
-(Images/day.jpg)
-(Images/night.jpg)
+![Day](Images/day.jpg)
+![Night](Images/night.jpg)
