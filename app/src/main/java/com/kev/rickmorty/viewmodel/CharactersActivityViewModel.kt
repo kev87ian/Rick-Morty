@@ -23,8 +23,7 @@ class CharactersActivityViewModel : ViewModel() {
 
     //function to query api
     fun makeAPICall() {
-        val retrofitInstance =
-            RetrofitInstance.getRetrofitInstance().create(RetrofitService::class.java)
+        val retrofitInstance = RetrofitInstance.getRetrofitInstance().create(RetrofitService::class.java)
         val call = retrofitInstance.getCharacters()
         call.enqueue(object : Callback<CharacterList?> {
             override fun onResponse(
