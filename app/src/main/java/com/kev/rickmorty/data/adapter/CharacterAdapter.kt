@@ -40,7 +40,7 @@ class CharacterAdapter(val context: Context) : RecyclerView.Adapter<CharacterAda
         holder.characterSpeciesTextView.text = item.species
         holder.characterStatusTextView.text = item.status
 
-        Glide.with(context).load(item.image).fitCenter().placeholder(R.mipmap.ic_launcher)
+        Glide.with(context).load(item.image).placeholder(R.drawable.loading)
             .into(holder.characterImageView)
     }
 
