@@ -9,11 +9,11 @@
 - [ViewModel](https://developer.android.com/jetpack/androidx/releases/lifecycle) - Stores UI-related data that survives UI changes such as rotations.
 - [LiveData](https://developer.android.com/jetpack/androidx/releases/lifecycle) - Observes the data on the UI layer
 - [CircleImageView](https://github.com/hdodenhof/CircleImageView) - To create the circular Imageviews.
-- [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+- [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - For dependency injection.
 - [Coroutines](https://developer.android.com/kotlin/coroutines) - To execute code asynchronously.
 - [Coil](https://coil-kt.github.io/coil/) - To load images. An alternative to Glide.
 - [Paging](https://developer.android.com/jetpack/androidx/releases/paging) - To load data gradually onto the recyclerview.
-
+-
 ## Screenshots
 ![Dark](Images/day.jpg)
 ![Light](Images/night.jpg)
