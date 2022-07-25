@@ -1,7 +1,7 @@
 ## Rick&Morty
 
 - This application is an application to practise my MVVM skills. It simply displays a list of characters from the [Rick & Morty API](https://rickandmortyapi.com/documentation/).
-- The application is built using the MVVM architecture.
+- The application is built using the MVVM architecture and also incorporates Paging
 ## Dependencies
 - [Glide](https://github.com/bumptech/glide)
 - [Gson Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/gson)
@@ -11,6 +11,8 @@
 - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
 - [Coroutines](https://developer.android.com/kotlin/coroutines)
 - [Coil](https://coil-kt.github.io/coil/)
+- [Paging](https://developer.android.com/jetpack/androidx/releases/paging)
+
 ## Screenshots
 ![Dark](Images/day.jpg)
 ![Light](Images/night.jpg)
