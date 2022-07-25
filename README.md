@@ -1,7 +1,7 @@
 ## Rick&Morty
 
-- This application is an application to practise my MVVM skills. It simply displays a list of characters from the [Rick & Morty API](https://rickandmortyapi.com/documentation/).
-- The application is built using the MVVM architecture and also incorporates Paging
+- This is an application to practice my MVVM skills. It simply displays a list of characters from the [Rick & Morty API](https://rickandmortyapi.com/documentation/).
+- The application is built using the MVVM architecture and also incorporates Paging.
 ## Dependencies
 - [Glide](https://github.com/bumptech/glide)
 - [Gson Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/gson)
