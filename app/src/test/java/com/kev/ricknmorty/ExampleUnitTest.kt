@@ -1,4 +1,4 @@
-package com.kev.rickmorty
+package com.kev.ricknmorty
 
 import org.junit.Test
 

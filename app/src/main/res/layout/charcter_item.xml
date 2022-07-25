@@ -6,8 +6,8 @@
     android:layout_marginStart="10dp"
     android:layout_marginEnd="10dp"
     android:layout_marginBottom="10dp"
-    app:cardCornerRadius="28dp"
-    app:cardElevation="2dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="22dp"
     app:cardPreventCornerOverlap="true"
     app:cardUseCompatPadding="true">
 
@@ -15,7 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
-
         app:contentPadding="15dp">
 
         <RelativeLayout
@@ -26,7 +25,7 @@
                 android:id="@+id/character_image_view"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
-                android:src="@drawable/rick"
+                android:src="@mipmap/ic_launcher"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp" />
 
@@ -55,8 +54,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:paddingLeft="100dp"
-                        android:text="Gender"
-                        android:textColor="@color/black" />
+                        android:text="Gender" />
 
                     <TextView
                         android:id="@+id/character_gender_tv"
@@ -79,8 +77,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_toEndOf="@+id/character_name_tv"
                         android:paddingStart="101dp"
-                        android:text="Status"
-                        android:textColor="@color/black" />
+                        android:text="Status" />
 
                     <TextView
                         android:id="@+id/character_status_tv"
@@ -102,8 +99,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:paddingLeft="100dp"
-                        android:text="Species"
-                        android:textColor="@color/black" />
+                        android:text="Species" />
 
                     <TextView
                         android:id="@+id/character_species_tv"
